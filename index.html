@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- 文字コード！-->
+<meta charset="utf-8">
+
+<!-- ブラウザで表示されるタイトル !-->
+<title>THE NATURE</title>
+
+<!-- SEO対策に必要な記述。サーバーアップしたら必ず記述しましょう。
+<meta name="description" content="" />
+<meta name="keywords" content="" /> -->
+
+	<!-- スタイルシート -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="reset.min.css" media="all">
+	<link rel="stylesheet" href="style.css" media="all">
+
+	<link rel="stylesheet" href="slick/slick.css" media="all"> <link rel="stylesheet" href="slick/slick-theme.css">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="responsive.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+     <script src="slick/slick.min.js"></script>
+  
+  <script type="text/javascript">
+
+  		$(function() {
+  			$('.pickup-items').slick({
+  			slidesToShow: 3,
+  			slidesToScroll: 1,
+ 			 autoplay: true,
+ 			 autoplaySpeed: 3000,
+ 			 arrows: false,
+
+ 			 responsive: [{
+					breakpoint: 641,
+					settings: {
+							slidesToShow: 1,
+				  			slidesToScroll: 1,
+				 			
+					}
+				}]
+
+
+			});
+
+		
+			// 	responsive: [{
+			// 		breakpoint: 640,
+			// 		settings: {
+			// 				slidesToShow: 1,
+			// 	  			slidesToScroll: 1,
+				 			
+			// 		}
+			// 	}]
+			// });
+
+	       $('.box').slick({
+			  dots: false,
+			  infinite: true,
+			  fade: true,
+			  cssEase: 'linear',
+			  autoplay: true,
+			  autoplaySpeed: 3300,
+			  arrows: false,
+			  pauseOnFocus: false,
+    		　pauseOnHover: false
+
+
+			});
+	
+			});
+
+  </script>
+
+
+  <link rel="stylesheet" href="https://use.typekit.net/icj6rjl.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'wpf2pvr',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+</head>
+
+<body>
+	<div class="wrap">
+
+	<!-- コンテンツ部分のコードを記入していく -->
+<div id="home" class="big-bg"> 
+	<div class="box">
+		<img src="images/アートボード 1-60.jpg">
+		<img src="images/アートボード 3-60.jpg">
+		<img src="images/アートボード 2-60.jpg">
+	</div>
+
+
+
+<header class="page-header wrapper">
+	<h1>
+		<a href="index.html">
+			<img class="logo" src="images/THE NATURE.png" alt="THE NATURE">
+        </a>
+    </h1>
+
+
+    <!-- 🍔 -->
+
+<!--     <div class="drawer">
+    	<input class="drawer_checkbox" id="drawerCheckbox" type="checkbox">
+
+    	<label class="drawer_icon" for="drawerCheckbox">
+    			<span class="drawer_icon-item"></span>
+    	</label>
+
+    	<label class="drawer_overlay" for="drawerCheckbox">    		
+    	</label> -->
+
+ <div class="drawer">
+	    <input class="drawer_checkbox" id="drawerCheckbox" type="checkbox" >
+	    <!-- ドロワーアイコン部分 -->
+	    <label class="drawer_icon" for="drawerCheckbox">
+	     	<span class="drawer_icon-item"></span>
+	    </label>
+	    <!-- 背景を暗く -->
+	    <label class="drawer_overlay" for="drawerCheckbox"></label>
+	    <!-- ドロワー内のメニュー -->
+	    <nav class="drawer_menu">
+				<ul class="main-nav">
+					<li><a href="#">CONCEPT</a></li>
+					<li><a href="#">PICK UP</a></li>
+					<li><a href="#SERVICE">SERVICE</a></li>
+					<li><a href="#">ONLINE STORE</a></li>
+					<li><a href="#">MEMBER</a></li>
+					<li><a href="#ACCESS">ACCESS</a></li>
+					<li class="mobile-reserve"><a href="#">RESERVE</a></li>
+		
+				</ul>
+			</nav>
+
+	  </div>
+
+
+    <!-- 🍔 -->
+<!-- 			<nav>
+				<ul class="main-nav">
+					<li><a href="#">CONCEPT</a></li>
+					<li><a href="#">PICK UP</a></li>
+					<li><a href="#SERVICE">SERVICE</a></li>
+					<li><a href="#">ONLINE STORE</a></li>
+					<li><a href="#">MEMBER</a></li>
+					<li><a href="#ACCESS">ACCESS</a></li>
+				</ul>
+			</nav>
+
+ -->
+
+			<div class="icons">
+				<div class="header-icon1">
+				 	<a href="https://www.instagram.com/yurulife_in_manila/">
+				 		<span class="fab fa-instagram" style="color: #fff;"></span></a>
+				</div><!-- header-icon1 -->
+				<div class="english-page">
+				 	<a href="#">ENG</a>
+				 </div>
+
+
+				<div class="menu-right">
+
+	    <a href="https://form.run/@t-ph--1610884080" target="new">RESERVE</a>
+
+	</div>
+</div><!-- icons -->
+
+
+
+</header>
+
+<div class="home-content">
+	<p>ありのままの自然を味わう</p>
+	<h1 class="page-title">THE NATURE</h1>
+</div>
+
+
+<div class="scroll"><a href="#">SCROLL</a></div>
+
+
+</div>
+
+
+
+
+
+<div class="pickup-wrapper anime">
+	<h2>PICK UP</h2>
+    <div class="pickup-items">
+	
+			<a href="#" class=new><img src="images/basilpizza.png"></a>
+			<a href="#" class=new><img src="images/PICKUP3.png"></a>
+		
+
+		<a href="#"><img src="images/PICKUP4.png"></a>
+		<a href="#"><img src="images/PICKUP2.png"></a>
+		<a href="#"><img src="images/収穫.png"></a>
+	</div>
+</div>
+
+<div class="concept anime">
+	<div class="concept-container">
+		   <h2>CONCEPT</h2>
+			<h3>地球とわたしたちがいつまでも心地よい世界を目指して</h3>
+			<p>デジタルな時代が進み、日常で頻繁にふれることのなくなった自然。<br>
+				生活の中では効率化や工業化が進み、ものや命の生まれたストーリーを感じる瞬間が<br>だんだんと少なくなってきているように感じます。<br><br>
+				わたしたちTHE NATUREは<br>そんな日常の中に、自然のありのままの美しさを感じることができ<br>食べ物の生まれるストーリーを感じることのできる空間を作りたいと考えました。<br><br>
+
+				ここでは、工業化されることなく「動物たちにとってストレスのない環境で行われる畜産」や<br>生物循環によって生まれる肥沃な土壌から育てた「農薬に頼らない野菜」を<br>その場で収穫し、
+				シンプルな方法でいただくことができます。<br>
+				<br>
+				のびのびと生きる動物や植物とふれあえば、人間と自然の深いつながりに気づきます。<br>地球とわたしたちがいつまでも心地よい世界を目指して。
+				<br><br><br>  ー <span>THE NATURE</span>
+			</p>
+	</div>	
+</div>
+
+	<div id="SERVICE" class="service-wrapper">
+
+			<div class="heading">
+				<h2>SERVICE</h2>
+			</div>
+			
+			<div class="services">	
+
+				<div id="SUMIBI" class="service-1 anime">
+					<p class="service-sumibi">SUMIBI</p>
+					<a href="#"><img class="item1" src="images/SUMIBImain.png"></a>
+					<img class="item2" src="images/SUMIBIsun.png">
+
+					<img class="text-sumibi" src="images/SUMIBI説明.png">
+
+				</div>	
+
+
+
+
+
+				<div id="WORKSHOP" class="service-2 anime">
+					<p class="service-workshop">WORK</p>
+					<p class="service-workshop2">SHOP</p>
+					<a href="#"><img class="item3" src="images/workshopmain.png"></a>
+					<img class="item4" src="images/WORKSHOPsub.png">
+
+				<img class="text-workshop" src="images/WORKSHOP説明.png">
+
+				</div>	
+
+				<div id="ONLINESHOP" class="service-3 anime">
+					<p class="service-onlinestore">ONLINE</p>
+
+					<p class="service-onlinestore2">STORE</p>
+					<a href="#"><img class="item5" src="images/ONLONESTOREmain.png"></a>
+					<img class="item6" src="images/ONLINESTOREsub.png">
+
+			　
+					<img class="text-onlinestore" src="images/ONLINESTORE説明.png">
+
+				</div>	
+
+
+			</div>
+		
+	</div>
+
+
+
+	<div class="instagram anime">
+				<h2>INSTAGRAM</h2>
+
+
+<!-- SnapWidget -->
+<div class="instafeed">
+
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+
+<iframe src="https://snapwidget.com/embed/898328" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
+</div>
+
+
+<div class="instafeed2">
+<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/905947" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:70%; "></iframe>
+</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div id="ACCESS" class="map anime">
+			    <h2>ACCESS</h2>
+			    <p>Tagaytay - Alfonso Road Brgy, Alfonso, 4123 Cavite</p>
+		
+<div class="map-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123804.21602395458!2d120.96124281013061!3d14.143048898355433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd9d70037a2f09%3A0x6f7436f398356781!2z44Kr44OT44OGIOOCouODq-ODleOCqeODs-OCvSDjgrfjgqvjg4Pjg4g!5e0!3m2!1sja!2sph!4v1607925576809!5m2!1sja!2sph" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="google_map"></iframe>
+</div>
+<!-- SnapWidget -->
+
+
+</div>
+
+		<footer>
+
+			<div class="footer-wrapper">
+			 	<h1><a href="#">THE NATURE</a></h1>
+
+
+					 <nav>
+						<ul class="footer-nav1">
+							<li><a href="#">CONCEPT</a></li>
+							<li><a href="#">PICK UP</a></li>
+							<li><a href="#SERVICE">SERVICE</a></li>
+
+							<li><a href="#SUMIBI"> - SUMIBI</a></li>
+							<li><a href="#WORKSHOP"> - WORK SHOP</a></li>
+							<li><a href="#ONLINESHOP"> - ONLINE STORE</a></li>
+
+							<li><a href="#">MEMBER</a></li>
+				        </ul>
+
+
+						<ul class="footer-nav2">
+							<li><a href="#ACCESS">ACCESS</a></li>
+							<li><a href="#">CONTACT</a></li>
+							<li>
+								<ul class="icon-box">
+									<li class="footer-icon1"><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+									<li class="footer-icon2"><a href="#"><span class="fab fa-instagram"></span></a></li>
+								</ul>
+							</li>
+
+						 </ul>
+
+					 </nav>
+				     
+				     <div class="btn">
+					          <a href="#">RESERVE</a>
+					</div>
+
+
+					 <div class="footer-mobile">
+						 <ul class="footer-nav3">
+						 	<li><a href="#">SERVICE</a></li>
+						 	<li><a href="#">ONLINE STORE</a></li>
+						 	<li><a href="#">CONTACT</a></li>
+						 </ul>
+	 				</div>
+
+
+			 </div><!-- </div>footer-wrapper -->
+
+			 <p>Copyright THE NATURE Inc. All Rights Reserved.</p>
+			
+
+
+		</footer>
+
+
+
+
+<script>
+	ScrollReveal().reveal('.anime', {
+			reset: true,
+			mobile: true,
+			origin: 'bottom',
+			dutation: 500,
+			delay: 150,
+			opacyty: 0,
+
+			});
+
+
+
+
+	</script>
+
+</div>
+</body>
+</html>
+
